@@ -30,7 +30,7 @@ export default function SignIn() {
       pageImage={
         <div className="relative mx-auto aspect-[4/3.37] w-[500px] xl:w-[620px] 2xl:w-[820px]">
           <Image
-            src={ bg } style={{ borderRadius: "2rem"}}
+            src={bg} style={{ borderRadius: "2rem" }}
             alt="Sign Up Thumbnail"
             fill
             priority
