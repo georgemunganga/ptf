@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Isomorphic
 
 ## Getting Started
@@ -49,3 +50,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 https://www.youtube.com/watch?v=MAtaT8BZEAo
+=======
+# ptf
+>>>>>>> 97872e9a96bd89ec3f24a53c0251367b8146120f
