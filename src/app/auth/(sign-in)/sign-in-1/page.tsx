@@ -22,8 +22,8 @@ export default function SignIn() {
           continue.
         </>
       }
-      description="By signing up, you will gain access to exclusive content, special
-      offers, and be the first to hear about exciting news and updates."
+      description="By signing in, you will gain access to monitored data, statistics and updates."
+
       bannerTitle="Monitoring Impact: Tracking Change in People's Lives."
       bannerDescription="Monitoring Impact: Tracking Change in People's Lives through an Interactive Analytics Dashboard, providing real-time insights and feedback loops to drive meaningful outcomes.."
       isSocialLoginActive={true}
