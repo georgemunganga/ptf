@@ -4,7 +4,7 @@ import Link from 'next/link';
 import logoImg from '@public/logo-primary.png';
 import logoImg2 from '@public/JSDF.jpg';
 import logoImg3 from '@public/logo-primary3.jpg';
-import logoImg3 from '@public/logo-primary4.jpg';
+import logoImg4 from '@public/logo-primary4.jpg';
 import Image from 'next/image';
 import { Button, Title, Text } from 'rizzui';
 import { PiAppleLogoFill, PiArrowLeftBold } from 'react-icons/pi';
