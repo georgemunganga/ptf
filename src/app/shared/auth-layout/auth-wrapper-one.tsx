@@ -4,6 +4,7 @@ import Link from 'next/link';
 import logoImg from '@public/logo-primary.png';
 import logoImg2 from '@public/JSDF.jpg';
 import logoImg3 from '@public/logo-primary3.jpg';
+import logoImg3 from '@public/logo-primary4.jpg';
 import Image from 'next/image';
 import { Button, Title, Text } from 'rizzui';
 import { PiAppleLogoFill, PiArrowLeftBold } from 'react-icons/pi';
@@ -67,10 +68,13 @@ export default function AuthWrapperOne({
                 <Image src={logoImg} alt="CSPR" />
               </Link>
               <Link href="/" className="mb-6 inline-flex max-w-[168px] xl:mb-8">
-                <Image src={logoImg2} alt="CSPR" />
+                <Image src={logoImg2} alt="PFT" />
               </Link>
               <Link href="/" className="mb-6 inline-flex max-w-[168px] xl:mb-8">
-                <Image src={logoImg3} alt="CSPR" className="ps-2.5 dark:invert" />
+                <Image src={logoImg3} alt="JSDF" className="ps-2.5 dark:invert" />
+              </Link>
+              <Link href="/" className="mb-6 inline-flex max-w-[168px] xl:mb-8">
+                <Image src={logoImg4} alt="JSDF" className="ps-2.5 dark:invert" />
               </Link>
               <Title
                 as="h2"
