@@ -1,4 +1,4 @@
-export function hexTorgb(hex: string) {
+export function hexToRGB(hex: string) {
   if (!hex) return '';
 
   const r = parseInt(hex.slice(1, 3), 16);

@@ -211,7 +211,7 @@ export const productReviews = [
         'https://isomorphic-furyroad.s3.amazonaws.com/public/products/modern/10.webp',
     },
     review:
-      'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color rgb LED Back-lighting for smart functionality',
+      'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',
     customer: {
       name: 'Cesar Reinger',
       avatar: `https://isomorphic-furyroad.s3.amazonaws.com/public/avatars-blur/avatar-${getRandomArrayElement(
@@ -478,7 +478,7 @@ export const productReviews = [
         'https://isomorphic-furyroad.s3.amazonaws.com/public/products/modern/1.webp',
     },
     review:
-      'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color rgb LED Back-lighting for smart functionality',
+      'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',
     customer: {
       name: 'Mrs. Connie Schaden',
       avatar: `https://isomorphic-furyroad.s3.amazonaws.com/public/avatars-blur/avatar-${getRandomArrayElement(

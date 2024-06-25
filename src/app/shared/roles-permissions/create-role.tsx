@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { PiChecksBold, PiFilesBold, PiXBold } from 'react-icons/pi';
-import { rgbaColorPicker } from 'react-colorful';
+import { RgbaColorPicker } from 'react-colorful';
 import { Controller, SubmitHandler } from 'react-hook-form';
 import { Form } from '@/components/ui/form';
 import { Input, Button, Tooltip, ActionIcon, Title } from 'rizzui';
@@ -106,7 +106,7 @@ export default function CreateRole() {
               control={control}
               name="roleColor"
               render={({ field: { onChange, value } }) => (
-                <rgbaColorPicker color={value} onChange={onChange} />
+                <RgbaColorPicker color={value} onChange={onChange} />
               )}
             />
 

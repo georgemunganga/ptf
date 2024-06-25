@@ -3,7 +3,7 @@ export const members = [
     id: 1,
     thumbnail:
       'https://isomorphic-furyroad.s3.amazonaws.com/public/avatars-blur/avatar-12.webp',
-    name: 'George Munganga',
+    name: 'Albert Flores',
     email: 'tanya.hill@example.com',
     color: 'text-[#00a76f]',
     fill: 'bg-[#00a76f]/10',

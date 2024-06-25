@@ -69,11 +69,11 @@ function ProfileMenuPopover({ children }: React.PropsWithChildren<{}>) {
 const menuItems = [
   {
     name: 'My Profile',
-    href: '#',
+    href: routes.profile,
   },
   {
     name: 'Account Settings',
-    href: '#',
+    href: routes.forms.profileSettings,
   },
   {
     name: 'Activity Log',
@@ -87,13 +87,13 @@ function DropdownMenu() {
       <div className="flex items-center border-b border-gray-300 px-6 pb-5 pt-6">
         <Avatar
           src="https://isomorphic-furyroad.s3.amazonaws.com/public/avatars-blur/avatar-11.webp"
-          name="George Munganga"
+          name="Albert Flores"
         />
         <div className="ms-3">
           <Title as="h6" className="font-semibold">
-            George Munganga
+            Albert Flores
           </Title>
-          <Text className="text-gray-600">georgemunganga@gmail.com</Text>
+          <Text className="text-gray-600">flores@doe.io</Text>
         </div>
       </div>
       <div className="grid px-3.5 py-3.5 font-medium text-gray-700">

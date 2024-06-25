@@ -154,7 +154,7 @@ export default function InvoiceDetails() {
           <Text className="mb-1.5 text-sm font-semibold uppercase">
             TRANSPORT LLC
           </Text>
-          <Text className="mb-1.5">George Munganga</Text>
+          <Text className="mb-1.5">Albert Flores</Text>
           <Text className="mb-1.5">
             2715 Ash Dr. San Jose, <br />
             South Dakota 83475

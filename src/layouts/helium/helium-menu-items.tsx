@@ -99,7 +99,7 @@ export const menuItems = [
     href: routes.support.dashboard,
     icon: <PiHeadset />,
   },
-/*
+
   // label start
   {
     name: 'Apps Kit',
@@ -580,5 +580,5 @@ export const menuItems = [
         href: routes.auth.otp5,
       },
     ],
-  },*/
+  },
 ];

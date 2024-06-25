@@ -1,10 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import logoImg from '@public/logo-primary.png';
-import logoImg2 from '@public/JSDF.jpg';
-import logoImg3 from '@public/logo-primary3.jpg';
-
+import logoImg from '@public/logo-primary.svg';
 import logoImgText from '@public/logo-primary-text.svg';
 import Image from 'next/image';
 import { Button, Title, Text } from 'rizzui';
@@ -68,11 +65,10 @@ export default function AuthWrapperOne({
                 href={'/'}
                 className="mb-6 inline-flex max-w-[168px] xl:mb-8"
               >
-                <Image src={logoImg} alt="CSPR"
-                <Image src={logoImg2} alt="CSPR" />
+                <Image src={logoImg} alt="Isomorphic" />
                 <Image
-                  src={logoImg3}
-                  alt="CSPR"
+                  src={logoImgText}
+                  alt="Isomorphic"
                   className="ps-2.5 dark:invert"
                 />
               </Link>

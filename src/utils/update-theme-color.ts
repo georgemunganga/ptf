@@ -1,4 +1,4 @@
-import { hexTorgb } from '@/utils/hex-to-rgb';
+import { hexToRGB } from '@/utils/hex-to-rgb';
 
 export function updateThemeColor(
   primaryLighter: string,
@@ -9,22 +9,22 @@ export function updateThemeColor(
 ) {
   document.documentElement.style.setProperty(
     '--primary-dark',
-    hexTorgb(primaryDark)
+    hexToRGB(primaryDark)
   );
   document.documentElement.style.setProperty(
     '--primary-light',
-    hexTorgb(primaryLight)
+    hexToRGB(primaryLight)
   );
   document.documentElement.style.setProperty(
     '--primary-lighter',
-    hexTorgb(primaryLighter)
+    hexToRGB(primaryLighter)
   );
   document.documentElement.style.setProperty(
     '--primary-default',
-    hexTorgb(primaryDefault)
+    hexToRGB(primaryDefault)
   );
   document.documentElement.style.setProperty(
     '--primary-foreground',
-    hexTorgb(primaryForeground)
+    hexToRGB(primaryForeground)
   );
 }
